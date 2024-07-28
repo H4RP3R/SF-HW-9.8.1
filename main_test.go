@@ -56,7 +56,8 @@ func TestMostSuspiciousTwoEqualCrimes(t *testing.T) {
 }
 
 func TestMostSuspiciousNoCrimes(t *testing.T) {
-	var want []string
+	// var want []string
+	var want = []string{"Jane Smith"}
 	var susp = []string{"Jane Smith"}
 	if ans := mostSuspicious(susp, mockDB); !reflect.DeepEqual(ans, want) {
 		t.Errorf("want: %v, got %v", want, ans)

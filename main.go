@@ -21,9 +21,10 @@ func mostSuspicious(susp []string, db map[string]Man) (names []string) {
 		}
 	}
 
-	if maxCrimes == 0 {
-		return
-	}
+	// The task do not say whether a person with zero crimes should be considered suspicious.
+	// if maxCrimes == 0 {
+	// 	return
+	// }
 
 	for _, name := range susp {
 		if s, ok := db[name]; ok && s.Crimes == maxCrimes {
