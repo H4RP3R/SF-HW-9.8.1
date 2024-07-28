@@ -12,7 +12,7 @@ import (
 const jsonFile = "people.json"
 
 // The mostSuspicious returns a slice of full names of persons with the maximum number of crimes.
-// If there are no persons who committed the crimes, returns nil.
+// If there are no matches, returns nil.
 func mostSuspicious(susp []string, db map[string]Man) (names []string) {
 	var maxCrimes int
 	for _, name := range susp {
