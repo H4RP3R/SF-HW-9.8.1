@@ -1,0 +1,72 @@
+[
+    {
+        "Name": "John",
+        "LastName": "Doe",
+        "Age": 30,
+        "Gender": "M",
+        "Crimes": 0
+    },
+    {
+        "Name": "Jane",
+        "LastName": "Smith",
+        "Age": 25,
+        "Gender": "F",
+        "Crimes": 0
+    },
+    {
+        "Name": "Michael",
+        "LastName": "Johnson",
+        "Age": 45,
+        "Gender": "M",
+        "Crimes": 5
+    },
+    {
+        "Name": "Emily",
+        "LastName": "Williams",
+        "Age": 32,
+        "Gender": "F",
+        "Crimes": 0
+    },
+    {
+        "Name": "David",
+        "LastName": "Brown",
+        "Age": 28,
+        "Gender": "M",
+        "Crimes": 2
+    },
+    {
+        "Name": "Sarah",
+        "LastName": "Jones",
+        "Age": 35,
+        "Gender": "F",
+        "Crimes": 0
+    },
+    {
+        "Name": "Daniel",
+        "LastName": "Garcia",
+        "Age": 40,
+        "Gender": "M",
+        "Crimes": 0
+    },
+    {
+        "Name": "Jessica",
+        "LastName": "Miller",
+        "Age": 29,
+        "Gender": "F",
+        "Crimes": 3
+    },
+    {
+        "Name": "Christopher",
+        "LastName": "Davis",
+        "Age": 38,
+        "Gender": "M",
+        "Crimes": 0
+    },
+    {
+        "Name": "Ashley",
+        "LastName": "Rodriguez",
+        "Age": 33,
+        "Gender": "F",
+        "Crimes": 0
+    }
+]
